@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 500px;
+    width: 40%;
+    border: 2px solid black;
+    overflow: hidden;
+    background: linear-gradient(120deg, #86a8cf,#fbe4d8,#c38eb4);
+    margin:50px ;
+    opacity: 5;
+}
+
+.hading{
+    text-align: center;
+}
+
+.container{
+    border: 2px solid black;
+    width: 60%;
+    height: 415px;
+    margin-left: 20%;
+    margin-top:20px;
+}
+
+.hading2{
+    text-align: center;
+    margin: 20px;
+}
+
+.hading3{
+    text-align: center;
+    margin: 20px;
+}
+
+.us{
+    margin-left: 30px;
+}
+
+#use{
+    width: 370px;
+    height: 33px;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+
+.pa{
+    margin-left: 30px;
+}
+
+#pas{
+    width: 370px;
+    height: 33px;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+
+.remen{
+    margin-left: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.for{
+    margin-left: 25%;
+    text-decoration: none;
+}
+
+.log{
+    background-color: #854f6c;
+    padding: 0.8rem 2.3rem;
+    color: whitesmoke;
+    font-size: 18px;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left:40px;
+    width: 80%;
+    height: 40px;
+}
+
+.log::before{
+    content: "";
+    background-color: #1d1a39;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 2s;
+    z-index: -1;
+}
+
+.log:hover::before{
+    transform: scale(1);
+}
+
+.log:hover{
+    transform: scale(90%);
+}
+.notreg{
+    text-align: center;
+}
+
+.not{
+    font-weight: bold;
+}
+
+.reg{
+    text-decoration: none;
+}
